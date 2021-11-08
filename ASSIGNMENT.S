@@ -8,7 +8,7 @@
 	STMIA R0,{R5,R6}   ;//In the location pointed by R0, store R5 and R6 
 SAMBA B SAMBA              ;//Infinite loop to avoid repitation of the same program
 VALUE1 DCD -15             ; VALUE1 is a variable in which an integer i.e, -15 is stored
-VALUE2 DCD 15              ; VALUE2 is a variable in which an integer i.e, -15 is stored
+VALUE2 DCD 15              ; VALUE2 is a variable in which an integer i.e,  15 is stored
 DECIMAL_POINT1 DCD -1       ; DECIMAL_POINT1 denotes the exponent of VALUE1 to the base 10
 DECIMAL_POINT2 DCD -1       ; DECIMAL_POINT2 denotes the exponent of VALUE2 to the base 10
 	AREA answer,DATA,READWRITE
